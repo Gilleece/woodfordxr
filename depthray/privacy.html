@@ -4,10 +4,10 @@
 <body><main>
 <nav><a href="../" class="brand">Woodford XR</a><a href="../privacy.html">Privacy</a><a href="../support.html">Support</a></nav>
 <h1>Depthray privacy policy</h1>
-<p>Last updated 22 September 2026. This policy covers the Depthray app for Meta Quest and Pico headsets, published by Woodford XR, the trading name of Sean Gilleece, a sole trader.</p>
+<p>Last updated 22 September 2026 (the problem report section added the same day). This policy covers the Depthray app for Meta Quest and Pico headsets, published by Woodford XR, the trading name of Sean Gilleece, a sole trader.</p>
 
 <h2>The short version</h2>
-<p>Depthray collects no personal data. It has no account of its own, no analytics, no crash reporting and no advertising. Everything it stores stays on your headset, and it talks to no server you did not set up yourself, apart from the two cases below where you choose to sign in to a service.</p>
+<p>Depthray collects no personal data. It has no account of its own, no analytics, no crash reporting and no advertising. Everything it stores stays on your headset, and it talks to no server you did not set up yourself, apart from the cases below: the store you bought it from, a sign in to Emby or Plex if you choose one, and a problem report if you choose to send one.</p>
 
 <h2>What stays on your headset</h2>
 <p>Depthray keeps, in its own private storage on the headset: the media servers and network shares you add, with their passwords and access tokens encrypted under the headset's own key store; your settings; and your playback history, so a film can resume where you left it. None of this is sent to Woodford XR or to anyone else. Removing a server in the app deletes its details, and uninstalling the app deletes all of it.</p>
@@ -18,13 +18,14 @@
 <li><strong>Emby Connect and plex.tv.</strong> If you choose to sign in to Emby or Plex with your account, Depthray contacts Emby's or Plex's own sign in service, which is how those services hand a player the list of your servers and the tokens to reach them. Those services have their own privacy policies. Depthray sends them only what their sign in needs.</li>
 <li><strong>The store you bought it from.</strong> On Meta Quest the app checks with the Meta Horizon platform that your account is entitled to the app, and uses the same platform for the one in app purchase that unlocks it after the free trial. For this the app reads your Meta user ID on the headset and uses it for nothing else: it is not shown, stored by Woodford XR or sent anywhere but to Meta. The Pico store's equivalent is used on Pico headsets. The stores' own policies cover the download and the purchase.</li>
 </ul>
-<p>No other network use exists. There is no telemetry and no call home.</p>
+<p>The only other network use is a problem report you send yourself, described below. There is no telemetry and no call home.</p>
 
 <h2>Hands, eyes and cameras</h2>
 <p>Hand tracking, where you have allowed it, is used only to aim the pointer and to detect a pinch. Eye tracking, on headsets that have it and where you turn it on, aims the same pointer. The passthrough view is composed by the headset's own system; the app never receives the camera image. None of this is recorded, stored or transmitted.</p>
 
 <h2>The log and Report a problem</h2>
-<p>Depthray can keep a plain text log of what it did, in the headset's Download folder, so you can read it or attach it to a report. The <strong>Report a problem</strong> row in About gathers that log, the headset model, the app version and a note you type, writes them to a file in the same folder, and hands the file to the mail or share app you pick. Nothing is sent unless you choose to send it, you see what it contains first, and the file stays on your headset. The log can name the servers you added and the files you played.</p>
+<p>Depthray can keep a plain text log of what it did, in the headset's Download folder, so you can read it or send it with a report. The <strong>Report a problem</strong> row in About asks you what happened and, if you want a reply, for your email address. When you press Send, the app sends your message, the headset model, the app version, the last performance line and that log to Woodford XR. Nothing is sent until you press Send, and a copy of what was sent stays on your headset in the Download folder so you can read it.</p>
+<p>The report travels over an encrypted connection to a small relay run by Woodford XR on Cloudflare, which passes it to Resend, an email delivery service, which delivers it to Woodford XR's support mailbox at Namecheap. Those three providers handle the report only to carry it and are the only third parties that see it. The log can name the servers you added and the files you played, and the report carries your email address only if you typed one. A report is kept in the support mailbox while the problem is looked into and deleted after; if you gave an address it is used only to reply about that report.</p>
 
 <h2>Children</h2>
 <p>Depthray is for users aged 13 and over, and is not directed at children.</p>
