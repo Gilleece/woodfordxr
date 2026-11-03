@@ -9,7 +9,7 @@ Stereo W mark, Archivo 700 wordmark. Built 2026-11-03. All type is outlined to p
 - `mono/`     single-colour versions, white (for dark grounds) and black (for light grounds), SVG and PNG.
 - `icon/`     mark and stacked lockup on a solid field, squared corners, no transparency. For app stores, developer pages, anything that asks for a solid icon. 512 and 1024.
 - `favicon/`  `favicon.svg` (W on an ink rounded square), PNGs at 16/32/48/64/192/512, `apple-touch-icon-180.png`, plus a transparent W for browsers that draw their own tile.
-- `social/`   ready-cut images: 1024 avatar (round-crop safe), OG image 1200x630, X header 1500x500, LinkedIn cover 1128x191, YouTube banner 2560x1440 (lockup inside the 1546x423 safe area), 1920x1080 title card. SVG source beside each PNG.
+- `social/`   ready-cut images: 1024 avatar (round-crop safe), Instagram profile picture 1080x1080 (stacked lockup with wide margin for the circle crop), OG image 1200x630, X header 1500x500, LinkedIn cover 1128x191, YouTube banner 2560x1440 (lockup inside the 1546x423 safe area), 1920x1080 title card. SVG source beside each PNG.
 - `index.html` the brand sheet with colour values and usage rules (served at /brand/ on the site).
 
 ## Naming
